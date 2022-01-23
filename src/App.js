@@ -43,8 +43,7 @@ function App() {
         enterDate: date,
         dueDate: moment(inputDueDate).format('YYYY-MM-DD'),
         tag: inputTag,
-        complete: false,
-        deleted: false
+        complete: false
     };
     setTaskList([...taskList, newTask]);
   }
