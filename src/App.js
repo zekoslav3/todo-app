@@ -81,7 +81,7 @@ function App() {
     setTaskList(editedTasks);
   }
 
-  // deleta task
+  // delete task
   const deleteTask = (id) => {
     const remainingTasks = taskList.filter(task => id !== task.id);
     setTaskList(remainingTasks);
