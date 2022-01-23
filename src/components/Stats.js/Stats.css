@@ -1,0 +1,63 @@
+.card-statitstics {
+    background-color: #fff !important;
+    border-bottom: none !important;
+}
+
+.card-statitstics .accordion-button:not(.collapsed) {
+    color: #212529 !important;
+    background-color: #fff !important;
+    box-shadow: none !important;
+}
+
+.card-statitstics .accordion-button:not(.collapsed)::after {
+    background-image: url('data:image/svg+xml,%3csvg xmlns=%27http://www.w3.org/2000/svg%27 viewBox=%270 0 16 16%27 fill=%27%23212529%27%3e%3cpath fill-rule=%27evenodd%27 d=%27M1.646 4.646a.5.5 0 0 1 .708 0L8 10.293l5.646-5.647a.5.5 0 0 1 .708.708l-6 6a.5.5 0 0 1-.708 0l-6-6a.5.5 0 0 1 0-.708z%27/%3e%3c/svg%3e');
+    transform: rotate(-180deg);
+}
+
+.card-statitstics .accordion-button:focus {
+    box-shadow: none !important;
+}
+
+.font-small {
+    font-size: .8rem;
+}
+
+.avatar {
+    white-space: nowrap;
+    background-color: #C3C3C3;
+    border-radius: 50%;
+    position: relative;
+    color: #FFF;
+    display: -webkit-inline-box;
+    display: -webkit-inline-flex;
+    display: -ms-inline-flexbox;
+    display: inline-flex;
+    font-size: 1rem;
+    text-align: center;
+    vertical-align: middle;
+    font-weight: 600;
+}
+
+.avatar .avatar-content {
+    width: 48px;
+    height: 48px;
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+    -webkit-justify-content: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+    -webkit-box-align: center;
+    -webkit-align-items: center;
+    -ms-flex-align: center;
+    align-items: center;
+    border-radius: 50%;
+    font-size: .857rem;
+}
+
+.avatar .avatar-content .avatar-icon {
+    width: 24px;
+    height: 24px;
+}

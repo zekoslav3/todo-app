@@ -1,0 +1,64 @@
+.task-card:hover {
+    box-shadow: 0 3px 10px 0 #ebe9f1;
+    transition: all .3s;
+}
+
+.update-task {
+    cursor: pointer;
+}
+
+.complete-task {
+    color: #B9B9C3;
+}
+
+.text-small {
+    font-size: 0.8rem;
+}
+
+.toast-text {
+    font-size: 0.9rem;
+}
+
+.toast-title-success {
+    color: #07bc0c;
+}
+
+.toast-title-warning {
+    color: #f1c40f;
+}
+
+.toast-title-error {
+    color: #e74c3c;
+}
+
+.toast-title-info {
+    color: #3498db;
+}
+
+.toast-subtitle {
+    font-size: 0.80rem;
+}
+
+.task-card .form-check-input:checked {
+    background-color: #6c757d !important;
+    border-color: #6c757d !important;
+}
+
+.task-card .form-check-input:focus {
+    box-shadow: none !important;
+}
+
+.task-item-important {
+    cursor: pointer;
+    color: #495057;
+}
+
+.task-item-important .important-icon {
+    width: 18px;
+    height: 18px;
+}
+
+.important-checked {
+    color: #FFC107;
+}
+
