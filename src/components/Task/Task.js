@@ -55,13 +55,15 @@ const Task = ({ task, completeTask, importantTask, updateTask, deleteTask }) => 
     };
 
     const handleDeleteTask = () => {
-        deleteTask(task.id);
-        toast.success(
-            <div className='toast-text'>
-                <div className='toast-title-success'>Task Deleted!</div>
-                <div className='toast-subtitle'>Data Saved</div>
-            </div>
-        );
+        if (window.confirm('Are you sure you want to delete task?')) {
+            deleteTask(task.id);
+            toast.success(
+                <div className='toast-text'>
+                    <div className='toast-title-success'>Task Deleted!</div>
+                    <div className='toast-subtitle'>Data Saved</div>
+                </div>
+            );
+        }    
     }
 
     // styling
